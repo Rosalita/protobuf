@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package main;
+
+message person {
+    string name = 1;
+    int32 age = 2;
+}
+
+// this is the name of the package that will contain generated code
+option go_package = "/pb";
